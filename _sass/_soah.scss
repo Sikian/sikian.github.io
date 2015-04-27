@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'joystix';
+  src: url('/assets/fonts/joystix_monospaceoystix/ot/joystix_monospace.otf');
+  src: url('/assets/fonts/joystix/tt/joystix_monospace.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*body {
+	background-color: #E6E6E6;
+	height: 100%;
+}*/
+
+/* GENERAL */
+
+.joystix {
+	font-family: 'joystix';
+}
+
+.absolute{
+	position: absolute;
+}
+
+.inline-block{
+	display: inline-block;
+}
+
+.shadow{
+	z-index: -10;
+	/*width: 0px;*/
+
+	display: inline-block;
+	color:#0071BC;
+	position: absolute;
+	top:3px;
+	margin-left: 3px;
+}
+
+.margin-center{
+	margin-left:auto;
+	margin-right: auto;
+}
+
+
+
+/* SPECIFIC */
+
+.wrapper{
+	text-align: center;
+}
+#soah{
+}
+#cat{
+	font-size:60%;
+}
+.main-title{
+	color: #29ABE2;
+	font-size: 6em;
+
+	position: relative;
+	top:250px;
+}
